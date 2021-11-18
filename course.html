@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>course</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link href="css/easydropdown.css" rel="stylesheet" type="text/css" />
+	 
+	<link href="css/main.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="wrapper wrapper-course">
+	<header class="header">
+		<div class="center">
+			<div class="header-top">
+				<a href="index.html" class="logo">
+					<img src="img/Logo.svg" alt="">
+				</a>
+				<div class="header-top-wrapper">
+					<div class="header-top-wrapper-info">
+	                    <a href="tel:+74951283636" class="header-top-info--link ">
+	                        <span>8 (495) 128-36-36</span>
+	                        <span class="img-wrap"> <img src="img/bg-phone.svg" alt=""></span>
+	                    </a>
+	                    <div class="soc">
+	                    	<div class="soc-list">
+	                    		<a href="https://vk.com/capital_skills" class="soc-item soc-item-vk" target="_blank"> </a>
+	                    		<a href="https://www.instagram.com/capital_skills/" class="soc-item soc-item-inst" target="_blank"> </a>
+	                    		<a href="https://www.youtube.com/channel/UCVzKGGPTk6KKc-sbQ9W3m4A/?guided_help_flow=5&disable_polymer=true" class="soc-item soc-item-yt" target="_blank"> </a>
+	                    	</div>
+	                    </div>
+	                    <a href="https://my.capital-skills.ru/" target="_blank" class="  btn outline js-login"><span class=" ">Войти</span></a>	 
+					</div>
+					<nav class="menu"> 
+						<div class="menu-mob-btn"></div>
+						<ul class="menu-list">
+							<li class="menu-list-item  ">
+								<a href="about.html"><span>ОБ АКАДЕМИИ</span></a>
+								<ul class="sub-menu-list">
+									<li class="sub-menu-list-item">
+										<a href="/targets-and-goals"><span>Цели и задачи</span></a>
+									</li>
+									<li class="sub-menu-list-item">
+										<a href="teachers.html"><span>Преподаватели</span></a>
+									</li>
+									<li class="sub-menu-list-item">
+										<a href="/news"><span>Новости</span></a>
+									</li>	
+									<li class="sub-menu-list-item">
+										<a href="reviews.html"><span>Отзывы студентов</span></a>
+									</li>								
+									<li class="sub-menu-list-item">
+										<a href="vacancy.html"><span>Вакансии</span></a>
+									</li>	
+									<li class="sub-menu-list-item">
+										<a href="/contest"><span>Акция </span></a>
+									</li>		
+								</ul>
+							</li>
+							<li class="menu-list-item">
+								<a href="timetable.html"><span>РАСПИСАНИЕ ЗАНЯТИЙ</span></a>
+							</li>
+							<li class="menu-list-item">
+								<a href="course.html"><span>КУРСЫ</span></a>
+							</li>
+							<li class="menu-list-item">
+								<a href="analytics.html"><span>АНАЛИТИКА</span></a>
+							</li>
+							<li class="menu-list-item">
+								<a href="partners.html"><span>ПАРТНЕРЫ</span></a>
+							</li>
+							<li>
+							<div class="mob-info">
+								<a href="tel:+74951283636" class="header-top-info--link ">
+									<span>8 (495) 128-36-36</span> 
+								</a>
+								<div class="soc">
+									<div class="soc-list">
+										<a href="https://vk.com/capital_skills" class="soc-item soc-item-vk" target="_blank"> </a>
+										<a href="https://www.instagram.com/capital_skills/" class="soc-item soc-item-inst" target="_blank"> </a>
+										<a href="https://www.youtube.com/channel/UCVzKGGPTk6KKc-sbQ9W3m4A/?guided_help_flow=5&disable_polymer=true" class="soc-item soc-item-yt" target="_blank"> </a>
+									</div>
+								</div>
+							</div> 			
+							</li>							
+						</ul> 
+					</nav>
+				</div>
+			</div> 
+		</div> 
+	</header>
+	<main>
+		<div class="course course-block">
+		    <div class="center">
+		        <div class="title">
+		            Курсы
+		        </div>
+		        <div class="block-select">
+		        	<div class="form-item form-item-select">  
+		        		<select class="dropdown" name="" id="">
+		        			<option value="" >Тип курсов</option>
+		        			<option value="">Тип курсов</option>  
+		        		</select>	 
+		        	</div>	
+		        	<div class="form-item form-item-select">  
+		        		<select class="dropdown" name="" id="">
+		        			<option value="" >Тема курсов</option>
+		        			<option value="">Тема курсов</option>  
+		        		</select>	 
+		        	</div>	
+		        	<div class="form-item form-item-select">  
+		        		<select class="dropdown" name="" id="">
+		        			<option value="" >Цена</option>
+		        			<option value="">Цена</option>  
+		        		</select>	 
+		        	</div>	
+		        	<div class="form-item form-item-select">  
+		        		<select class="dropdown" name="" id="">
+		        			<option value="" >Преподаватели</option>
+		        			<option value="">Преподаватели</option>  
+		        		</select>	 
+		        	</div>	 	
+		        </div>
+		        <div class="course-list">
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-1.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    БАЗОВЫЙ КУРС 
+		                </div>
+		                <div class="course-text">
+		                    <p>Базовая программа, рассчитанная на две недели обучения. Научим разбираться в финансовых рынках и расскажем, с чего начать. Слушателям назначается куратор, с которым согласовывается расписание и посещение лекционных и практических занятий по торговле на финансовых рынках.</p>
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Сертификат</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>30 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>Бесплатно </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-2.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    БАЗОВЫЙ КУРС ОНЛАЙН 
+		                </div>
+		                <div class="course-text">
+		                    <p>Базовая программа, рассчитанная на две недели обучения. Научим разбираться в финансовых рынках и расскажем, с чего начать. Слушателям назначается куратор, с которым согласовывается расписание и посещение онлайн занятий по торговле на финансовых рынках.</p>
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Сертификат</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>30 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>25 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-3.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    БАЗОВЫЙ КУРС VIP <span>индивидуальный курс </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Базовая программа, рассчитанная на две недели обучения. Научим разбираться в финансовых рынках и расскажем, с чего начать. Слушателям назначается куратор, с которым согласовывается расписание и посещение лекционных и практических занятий по торговле на финансовых рынках.</p>
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Сертификат</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>30 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>100 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-4.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP <span>Волновая теория </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данный курс, рассчитанный на две недели обучения, позволяет эффективно работать на фондовом, валютном и товарно-сырьевом рынке, используя базовую методику волновой теории Ральфа Эллиотта и инновационный системный подход с использованием симметрии рынка.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Максим Солодухо</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>35 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-5.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP VIP <span>Волновая теория </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данный курс, рассчитанный на две недели обучения в индивидуальном формате с преподавателем, позволяет эффективно работать на фондовом, валютном и товарно-сырьевом рынке, используя базовую методику волновой теории Ральфа Эллиотта и инновационный системный подход с использованием симметрии рынка.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Максим Солодухо</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>80 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-6.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PPROFI GROUP <span>Сильный старт </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данный курс, рассчитанный на две недели обучения, позволяет эффективно работать на валютном и товарно-сырьевых рынках, используя базовую методику технического анализа и понимание настроения крупных игроков через COT-отчёты, знакомство с рынком деривативов.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Михаил Вавилов</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>35 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>	
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-7.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP VIP <span>Сильный старт </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данный курс, рассчитанный на две недели обучения в индивидуальном формате с преподавателем, позволяет эффективно работать на валютном и товарно-сырьевых рынках, используя базовую методику технического анализа и понимание настроения крупных игроков через COT-отчёты, знакомство с рынком деривативов.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Михаил Вавилов</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>80 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>	
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-8.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP <span>Торговля по уровням </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данный курс, рассчитанный на две недели обучения, позволяет эффективно анализировать и находить более точные точки входа на финансовых рынках, используя базовую методику мани менеджмента, технического анализа и углубленное изучение уровней Фибоначчи.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Евгений Удилов</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>35 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>			            	            	            		
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-9.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP VIP <span>Торговля по уровням </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данный курс, рассчитанный на две недели обучения в индивидуальном формате с преподавателем, позволяет эффективно анализировать и находить более точные точки входа на финансовых рынках, используя базовую методику мани менеджмента, технического анализа и углубленное изучение уровней Фибоначчи.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Евгений Удилов</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>80 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>	
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-10.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                   PROFI GROUP <span>Скальпинг для начинающих</span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данный курс, рассчитанный на две недели обучения, позволяет эффективно научиться анализировать и находить более точные точки входа на малых тайм-фреймах на валютном рынке, используя методику мани менеджмента, технического анализа и макроэкономические показатели, и их влияние на валютный рынок.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Айрат Саттаров</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>35 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>	
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-11.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP VIP <span>Скальпинг для начинающих</span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данный курс, рассчитанный на две недели обучения в индивидуальном формате с преподавателем, позволяет эффективно научиться анализировать и находить более точные точки входа на малых тайм-фреймах на валютном рынке, используя методику мани менеджмента, технического анализа и макроэкономические показатели, и их влияние на валютный рынок.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Айрат Саттаров</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>80 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>	
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-12.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                   PROFI GROUP <span>Универсальный трейдер: как из 7000 выбрать 7 лучших </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данный курс, рассчитанный на две недели обучения, позволяет эффективно научиться анализировать фундаментальные и макроэкономические показатели для фондового рынка и находить более точные сигналы, для создания личного инвестиционного портфеля.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Айрат Саттаров</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>35 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>		            	            	            	
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-13.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP VIP <span>Универсальный трейдер: как из 7000 выбрать 7 лучших </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данный курс, рассчитанный на две недели обучения в индивидуальном формате с преподавателем, позволяет эффективно научиться анализировать фундаментальные и макроэкономические показатели для фондового рынка и находить более точные сигналы для создания личного инвестиционного портфеля.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Айрат Саттаров</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>80 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-14.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                   PROFI GROUP <span>Первичное размещение акций (IPO) </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данное обучение позволяет эффективно работать на финансовых рынках, используя методику расчета первоначальной стоимости акции при проведении IPO. Также в рамках курса вы научитесь формировать собственный научно-обоснованный экспертный взгляд на рыночные тенденции рынка.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Айрат Саттаров</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>50 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-15.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP VIP <span>Первичное размещение акций (IPO)</span> 
+		                </div>
+		                <div class="course-text">
+		                    <p>Данное обучение в индивидуальном формате позволяет эффективно работать на финансовых рынках, используя методику расчета первоначальной стоимости акции при проведении IPO. Также в рамках курса вы научитесь формировать собственный научно-обоснованный экспертный взгляд на рыночные тенденции рынка.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Айрат Саттаров</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>120 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>		            		            		
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-16.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                   PROFI GROUP <span>Стратегия извлечения прибыли на рынке </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данное обучение позволяет эффективно работать на финансовых рынках, используя методику технического анализа, а также выставление ордеров на закрытие позиции по уровням. Также в рамках курса вы научитесь формировать собственный научно-обоснованный экспертный взгляд на рыночные тенденции рынка и понимание нахождения точки входа.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Оксана Галустян</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>35 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>	
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-17.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP VIP <span>Стратегия извлечения прибыли на рынке </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данное обучение в индивидуальном формате позволяет эффективно работать на финансовых рынках, используя методику технического анализа, а также выставление ордеров на закрытие позиции по уровням. Также в рамках курса вы научитесь формировать собственный научно-обоснованный экспертный взгляд на рыночные тенденции рынка и понимание нахождения точки входа.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Оксана Галустян</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>80 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>		
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-18.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                   PROFI GROUP <span>Симметричность технического анализа в рынках </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данное обучение позволяет эффективно работать на фондовом, валютном, сырьевом рынках, используя базовую методику волновой теории Ральфа Эллиотта и инновационный системный подход с использованием симметрии рынка. Также в рамках системы используются группа индикаторов с определенными настройками и совместной работой с сильными наклонными уровнями, что как результат даёт возможность получать доходность от 10 до 20 процентов от депозита в месяц.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Максим Солодухо</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>35 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div> 
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-19.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP VIP <span>Симметричность технического анализа в рынках </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данное обучение в индивидуальном формате позволяет эффективно работать на фондовом, валютном, сырьевом рынках, используя базовую методику волновой теории Ральфа Эллиотта и инновационный системный подход с использованием симметрии рынка. Также в рамках системы используются группа индикаторов с определенными настройками и совместной работой с сильными наклонными уровнями, что как результат даёт возможность получать доходность от 10 до 20 процентов от депозита в месяц.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Максим Солодухо</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>80 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div> 
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-20.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                   PROFI GROUP <span>Техника прибыльной стратегии</span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данное обучение позволяет эффективно работать на финансовых рынках, используя простоту технического и компьютерного анализа. Также в рамках системы используются группа индикаторов с определенными настройками и совместной работой с сильными наклонными уровнями, что как результат даёт возможность получать доходность от 10 до 20 процентов от депозита в месяц.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Марк Гойхман</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>35 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>   
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-21.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    PROFI GROUP VIP <span>Техника прибыльной стратегии</span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Данное обучение в индивидуальном формате позволяет эффективно работать на финансовых рынках, используя простоту технического и компьютерного анализа. Также в рамках системы используются группа индикаторов с определенными настройками и совместной работой с сильными наклонными уровнями, что как результат даёт возможность получать доходность от 10 до 20 процентов от депозита в месяц.</p>
+							<p><strong>Преподаватель:</strong></p>
+		                    <p>Марк Гойхман</p>		                    
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>80 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>   
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-22.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                   MASTER <span>Валютный рынок </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Это углубленные курсы обучения торговле на валютном рынке и видам анализов, рассчитанные на один месяц занятий. Лекции и семинары проходят в группах до 5 человек. Слушателям назначается преподаватель, под руководством которого ведется обучение и сдача аттестации.</p>               
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>72 часа </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>60 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div> 
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-23.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    MASTER VIP <span>Валютный рынок </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Это углубленные курсы обучения торговле на валютном рынке и видам анализов, рассчитанные на один месяц занятий. Обучение проходит в индивидуальном формате с преподавателем. Слушателю назначается преподаватель, под руководством которого ведется обучение и сдача аттестации.</p>                
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>72 часа </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>120 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>  
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-24.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                  MASTER <span>Фондовый рынок </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Это углубленные курсы обучения торговле на фондовом рынке и видам анализов, рассчитанные на один месяц занятий. Лекции и семинары проходят в группах до 5 человек. Слушателям назначается преподаватель, под руководством которого ведется обучение и защита своего личного инвестиционного портфеля.</p>               
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>72 часа </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>60 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>  
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-25.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    MASTER VIP <span>Фондовый рынок</span> 
+		                </div>
+		                <div class="course-text">
+		                    <p>Это углубленные курсы обучения торговле на валютном рынке и видам анализов, рассчитанные на один месяц занятий. Обучение проходит в индивидуальном формате с преподавателем. Слушателю назначается преподаватель, под руководством которого ведется обучение и защита своего личного инвестиционного портфеля.</p>                
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Удостоверение</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>72 часа </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>120 000 рублей  </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div> 
+		          	
+		          	<div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-26.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                  MASTER ALL 
+		                </div>
+		                <div class="course-text">
+		                    <p>Это углубленные курсы изучения Валютного и Фондового рынков, рассчитанные на три месяца занятий. Лекции и семинары проходят в группах до 5 человек. Слушателям назначается преподаватель, под руководством которого ведется обучение. Данный курс является заключительным этапом обучения, он нацелен на разработку и анализ уникальных торговых стратегий.</p>               
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Диплом</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>216 часов  </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>160 000 рублей   </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>    
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-27.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    MASTER ALL VIP 
+		                </div>
+		                <div class="course-text">
+		                    <p>Это углубленные курсы изучения Валютного и Фондового рынков, рассчитанные на три месяца занятий. Занятия проходят в индивидуальном формате. Вам назначается преподаватель, под руководством которого ведется обучение. Данный курс является заключительным этапом обучения, он нацелен на разработку и анализ уникальных торговых стратегий.</p>                
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Диплом</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>216 часов  </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>300 000 рублей   </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>
+
+		          	<div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-28.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                  ФСФР БАЗОВЫЙ <span>Нормативные документы, регламентирующие деятельность финансовых рынков </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Мы собрали для Вас самый полный свод актуальных материалов по подготовке к экзаменам ФСФР, в том числе вопросы и ответы, методические и вспомогательные пособия, решения задач и другие аналогичные материалы. Также мы дадим Вам возможность проверить свои знания на тренажере.</p>  
+		                    <p><strong>Преподаватель:</strong></p>
+		                    <p>Айрат Саттаров  </p>             
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Сертификат</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов   </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>30 000 рублей    </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>  	
+
+		            <div class="course-item">
+		                <div class="img-wrap">
+		                    <img src="img/icon-course-29.png" alt="">
+		                </div>
+		                <div class="course-title">
+		                    ФСФР БАЗОВЫЙ VIP <span>Нормативные документы, регламентирующие деятельность финансовых рынков </span>
+		                </div>
+		                <div class="course-text">
+		                    <p>Мы собрали для Вас самый полный свод актуальных материалов по подготовке к экзаменам ФСФР, в том числе вопросы и ответы, методические и вспомогательные пособия, решения задач и другие аналогичные материалы. Также мы дадим вам возможность проверить свои знания на тренажере.</p>  
+		                    <p><strong>Преподаватель:</strong></p>
+		                    <p>Айрат Саттаров  </p>              
+		                    <p><strong>Включает в себя:</strong></p>
+		                    <ul>
+		                    	<li>Материалы</li>
+		                    	<li>Вебинар</li>
+		                    	<li>Сертификат</li>
+		                    </ul>
+		                    <p><strong>Продолжительность:</strong></p>
+		                    <p>20 часов   </p>
+		                    <p><strong>Стоимость:</strong></p>
+		                    <p>75 000 рублей    </p>		                    
+		                </div>
+		                <a href="/training-practice" class="btn blue">Подробнее</a>
+		            </div>                                                
+		        </div>
+		    </div>
+		</div>
+		<div class="practice practice-about bg-white">
+		    <div class="rightarea-bg"></div>
+		    <div class="center">
+		        <div class="rightarea-content">
+		            <div class="title">
+		                Запишись на курс 
+		            </div>
+		            <p>
+		                Слушатели и участники Финансовой Академии «CAPITAL SKILLS» — это сообщество единомышленников, которые встречаются, обмениваются опытом и мнениями, вместе проводят время и заводят новые знакомства. Приходите на мероприятия клуба и убедитесь сами! 
+		            </p>
+		            <a href="/training-practice" class="btn blue">Подробнее</a>
+		        </div>
+		    </div>
+		</div>
+		<div  class="block-contacts">
+			<div class="center">
+				<div class="form">
+					<form action="/mail.php" method="post">
+						<div class="form__title">
+							Контакты
+						</div>
+						<div class="form__block">
+							<div class="column">
+								<div class="column-item">
+									<input type="hidden" value="2" name="type">
+									<div class="form__line">
+										<input type="text" name="name" placeholder="Ваше имя">
+									</div>
+									<div class="form__line">
+										<input type="tel" name="phone" placeholder="Телефон">
+									</div>
+									<div class="form__line">
+										<input type="email" name="email" placeholder="E-mail">
+									</div>
+		
+								</div>
+								<div class="column-item">
+									<div class="form__line form__line--textarea">
+										<textarea name="message" id="" placeholder="Текст сообщения" ></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="form__line form__line--checkbox">
+								<input id="agree" type="checkbox">
+								<label for="agree">Согласен на обработку персональных данных</label>
+							</div>
+							<div class="form__line form__line--submit">
+								<button type="submit" value="">отправить</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="center">
+			<div class="footer-block-wrap">
+				<div class="footer-block">
+					<span class="logo">
+						<img src="/img/logo.png" alt="">
+					</span>
+				</div>
+				<div class="footer-block">
+					<nav class="menu">
+						<ul class="menu-list">
+							<li class="menu-list-item  ">
+								<a href="about.html"><span>ОБ АКАДЕМИИ</span></a> 
+							</li>
+							<li class="menu-list-item">
+								<a href="/timetable"><span>РАСПИСАНИЕ ЗАНЯТИЙ</span></a>
+							</li>
+							<li class="menu-list-item">
+								<a href="/training-practice"><span>КУРСЫ</span></a>
+							</li>
+							<li class="menu-list-item">
+								<a href="analytics.html"><span>АНАЛИТИКА</span></a>
+							</li>
+							<li class="menu-list-item">
+								<a href="/partners"><span>ПАРТНЕРЫ</span></a>
+							</li>							
+						</ul>
+					</nav>				 
+					<div class="footer-info-text-wrap">
+						<div class="footer-info-text">
+							Лицензия департамента образования и науки г. Москвы
+							№ 041135 от 30.11.2020
+						</div>
+						<div class="footer-info-text">
+							<span>Адрес: 105005, г. Москва,</span>
+							<span>Набережная Академика</span>
+							<span>Туполева, д. 15,</span>
+							<span>корпус 22, 5 этаж, офис 502</span>
+						</div>
+						<div class="footer-info-text">
+							Тел.: 8 (495) 128-36-36
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	
+	
+	<script src="js/slick.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/easydropdown.js"></script>
+	 
+	
+	<script src="js/main.min.js"></script>
+	</body>
+</body>
+</html>
